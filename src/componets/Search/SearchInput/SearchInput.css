@@ -1,0 +1,28 @@
+.Search-Input{
+    position: relative;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 10px;   
+}
+input{
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;  
+   
+}
+.img-div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 7px;
+    margin-right: 5px;
+    border-radius: 10px;  
+}
+
+.img-div:focus {
+    cursor: pointer;
+    background-color: aqua;
+}
